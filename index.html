@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Coodernação de Informática</title>
+        <title>Coordenação de Informática</title>
 
         <!-- Bootstrap -->
         <link rel="icon" type="image/png" href="imagens/icon.png" />
@@ -24,7 +24,7 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -36,13 +36,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">INICIO</a></li>
-                        <li><a href="#">SOBRE</a></li>
-                        <li><a href="#">CURSOS</a></li>
-                        <li><a href="#">PROFESSORES</a></li>
-                        <li><a href="#">GALERIA</a></li>
-                        <li><a href="#">NOTÍCIAS</a></li>
-                        <li><a href="#">CONTATO</a></li>
+                        <li><a href="#inicio">INICIO</a></li>
+                        <li><a href="#sobre">SOBRE</a></li>
+                        <li><a href="#cursos">CURSOS</a></li>
+                        <li><a href="#professores">PROFESSORES</a></li>
+                        <li><a href="#galeria">GALERIA</a></li>
+                        <li><a href="#noticias">NOTÍCIAS</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -50,32 +50,274 @@
         <!--FIM MENU FIXO-->  
 
         <!--HOME--> 
+        <div id="inicio" >
+            <div id="inicio-banner" class="bgParallax" data-speed="15">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="imagens/logo-inicio.png" alt="Logotipo do IF" title="Logotipo do IF" class="img-center"/>
+                            <h2 class="text-center">Institulto Federal do Pará</h2>
+                            <h2 class="text-center">Campus Itaituba</h2>
+                            <h1 class="text-center font-bold">Coordenação de Informática</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="inicio-sections">
+            <div class="container-fluid bg-branco">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imagens/cursos.png" class="img-center" alt='Acessa área de cursos'/>
+                        <h3 class="text-uppercase text-center">Cursos </h3>
+                        <p class="text-center">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+                        <p class="text-center"><a class="btn btn-success text-uppercase" href="#cursos">saiba mais</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/professores.png" class="img-center" alt='Acessa área de cursos'/>
+                        <h3 class="text-uppercase text-center">PROFESSORES </h3>
+                        <p class="text-center">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+                        <p class="text-center"><a class="btn btn-success text-uppercase" href="#professores">saiba mais</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/noticias.png" class="img-center" alt='Acessa área de cursos'/>
+                        <h3 class="text-uppercase text-center">NOTICIAS </h3>
+                        <p class="text-center">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
+                        <p class="text-center"><a class="btn btn-success text-uppercase" href="#noticias">saiba mais</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--FIM HOME--> 
 
         <!--SOBRE-->
+        <div id="sobre" class="bg-verde">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 page-title">
+                        <h1 class="text-uppercase title font-bold" >sobre</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <video controls poster="imagens/gb-video.jpg">
+                            <source src='media/video-sobre.mp4' type='video/mp4'>
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-justify">
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. 
+                        </p>
+                        <h3 class="font-bold text-white">Responsáveis:</h3>
+                        <h4 class="font-bold text-white">Michel M. Yvano</h4>
+                        <p><span class="font-bold">Nível Superior:</span><br/> Tecnologia em Análise e Desenvolvimento de Sistemas.</p>
+                        <h4 class="font-bold text-white">Kadja J. P. Vieira</h4>
+                        <p><span class="font-bold">Nível Técnico:</span><br/> Técnico em Informática.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--FIM SOBRE-->
 
         <!--CURSOS-->
+        <div id="cursos">
+            <div class="container-fluid bg-branco">
+                <div class="row">
+                    <div class="col-xs-12 page-title">
+                        <h1 class="text-uppercase title font-bold" >cursos</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="text-uppercase text-center">TÉCNICO EM INFORMÁTICA</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p><span class="font-bold">Nivel:</span> Técnico Integrado ao Ensino Médio</p>
+                                <hr/>
+                                <p><span class="font-bold">Duração:</span>  3 Anos e 6 Meses</p>
+                                <hr/>
+                                <p><span class="font-bold">Grade do Curso: </span> <a href="media/ppc-analise-de-sistemas.pdf" download>Clique Aqui</a></p>
+                                <hr/>
+                                <p><span class="font-bold">Coordenador(a):</span>   Kadja J. P. Vieira</p>
+                                <hr/>
+                                <p class="text-justify"><span class="font-bold">Descrição:</span> <br/>  	Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="text-uppercase text-center">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p><span class="font-bold">Nivel:</span> Superior</p>
+                                <hr/>
+                                <p><span class="font-bold">Duração:</span>  3 Anos</p>
+                                <hr/>
+                                <p><span class="font-bold">Grade do Curso: </span> <a href="media/ppc-analise-de-sistemas.pdf" download>Clique Aqui</a></p>
+                                <hr/>
+                                <p><span class="font-bold">Coordenador(a):</span>   Michel M. Yvano</p>
+                                <hr/>
+                                <p class="text-justify"><span class="font-bold">Descrição:</span> <br/>  	Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- FIM CURSOS-->
 
         <!--PROFESSORES-->
+        <div id="professores" class="bg-verde">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 page-title">
+                        <h1 class="text-uppercase title font-bold" >professores</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="imagens/professor.jpg" alt="PROFESSOR" class="img-center img-responsive"/>
+                            <p class="text-center">Lorem Ipsum Dolor</p>
+                            <figcaption>
+                                <span class="icon-bibliografia" data-toggle="modal" data-target="#myModal"></span>
+                            </figcaption>
+                        </figure>                        
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="imagens/professor.jpg" alt="PROFESSOR" class="img-center img-responsive"/>
+                            <p class="text-center">Lorem Ipsum Dolor</p>
+                            <figcaption>
+                                <span class="icon-bibliografia" data-toggle="modal" data-target="#myModal"></span>
+                            </figcaption>
+                        </figure>                        
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="imagens/professor.jpg" alt="PROFESSOR" class="img-center img-responsive"/>
+                            <p class="text-center">Lorem Ipsum Dolor</p>
+                            <figcaption>
+                                <span class="icon-bibliografia" data-toggle="modal" data-target="#myModal"></span>
+                            </figcaption>
+                        </figure>                        
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="imagens/professor.jpg" alt="PROFESSOR" class="img-center img-responsive"/>
+                            <p class="text-center">Lorem Ipsum Dolor</p>
+                            <figcaption>
+                                <span class="icon-bibliografia" data-toggle="modal" data-target="#myModal"></span>
+                            </figcaption>
+                        </figure>                        
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="imagens/professor.jpg" alt="PROFESSOR" class="img-center img-responsive"/>
+                            <p class="text-center">Lorem Ipsum Dolor</p>
+                            <figcaption>
+                                <span class="icon-bibliografia" data-toggle="modal" data-target="#myModal"></span>
+                            </figcaption>
+                        </figure>                        
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="imagens/professor.jpg" alt="PROFESSOR" class="img-center img-responsive"/>
+                            <p class="text-center">Lorem Ipsum Dolor</p>
+                            <figcaption>
+                                <span class="icon-bibliografia" data-toggle="modal" data-target="#myModal"></span>
+                            </figcaption>
+                        </figure>                        
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--FIM PROFESSORES-->
 
         <!--GALERIA-->
+        <div id="galeria" class="bg-branco">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 page-title">
+                        <h1 class="text-uppercase title font-bold" >galeria</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--FIM GALERIA-->
 
         <!--NOTICIAS-->
+        <div id="noticias" class="bg-verde">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 page-title">
+                        <h1 class="text-uppercase title font-bold" >notícias</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--FIM NOTICIAS-->
 
         <!--CONTATO-->
+        <div id="contato" class="bg-branco">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 page-title">
+                        <h1 class="text-uppercase title font-bold" >contato</h1>
+                        <hr>
+                        <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--FIM CONTATO-->
 
         <!--RODAPE-->
         <!--FIM RODAPE-->
+
+        <!--MODAL PROFESSOR-->
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog  modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-verde">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title text-uppercase text-center" id="myModalLabel">Lorem Ipsum Dolor</h4>
+                    </div>
+                    <div class="modal-body bg-branco">
+                        <img src="imagens/professor.jpg" class="img-center img-circle img-responsive "/>
+                        <ul class="list-inline text-center">
+                            <li><a href="#" target="_blank" class="social-icon social-fb"></a></li>
+                            <li><a href="#" target="_blank" class="social-icon social-tw"></a></li>
+                            <li><a href="#" target="_blank" class="social-icon social-ln"></a></li>
+                            <li><a href="#" target="_blank" class="social-icon social-yo"></a></li>
+                            <li><a href="#" target="_blank" class="social-icon social-lt"></a></li>
+                        </ul>
+                        <h4 class="text-capitalize text-green">bibliografia</h4>
+                        <p class="text-justify text-ident">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FIM MODAL PROFESSOR-->
         <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
         <script src="js/jquery-3.1.1.min.js"></script>
         <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
         <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/cooi_script.js"></script>
     </body>
 </html>
