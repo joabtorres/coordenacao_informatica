@@ -1,0 +1,42 @@
+@charset "utf8";
+
+/*
+    CLASSES GLOBAIS
+    @author Joab Torres Alencar
+*/
+
+/*
+    HEADER
+    @author Joab Torres Alencar
+*/
+.navbar-default{
+    border-bottom: 4px solid #008241;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #006633;
+    padding: 25px 15px;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+    background-color: #006633;
+    color: white;
+}
+.navbar-brand{
+    height: auto;
+}
+@media(max-width: 768px){
+    .navbar-default .navbar-nav > li > a{
+        padding: 15px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        
+    }
+}
+/*
+    SECTION
+    @author Joab Torres Alencar
+*/
+
+/*
+    FOOTER
+    @author Joab Torres Alencar
+*/
