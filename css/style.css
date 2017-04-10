@@ -6,7 +6,13 @@
 *{
     font-family: "ubuntu-regular";
 }
+p{
+    font-size: 16px!important;
+}
 html, body {height:100%;}
+#toTop{
+    display: none!important;
+}
 /*
     CLASSES GLOBAIS
     @author Joab Torres Alencar
@@ -86,7 +92,7 @@ html, body {height:100%;}
 .font-bold{
     font-weight: bold;
 }
-.page-title h1{
+.page-title h1,.page-title h3{
     margin-bottom: 0;
 }
 .page-title hr{
@@ -108,7 +114,8 @@ html, body {height:100%;}
     color: #006633;
     padding: 25px 15px;
 }
-.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
     background-color: #006633;
     color: white;
 }
@@ -147,7 +154,7 @@ html, body {height:100%;}
     left: 47%;
     bottom: -75px;
 }
-#sobre, #cursos,#professores, #galeria, #noticias, #contato{
+#sobre, #cursos,#professores, #galeria, #noticias, #contato, #rodape{
     padding: 30px 0;
 }
 #sobre:after, #professores:after, #noticias:after{
@@ -181,8 +188,8 @@ html, body {height:100%;}
     padding: 0;
     position: absolute;
     top: 2.5%;
-    left: 10%;
-    width: 80%;
+    left: 4.5%;
+    width: 91%;
     height: 95%;
     background-color: rgba(255,255,255,.8);
     opacity: 0;
@@ -194,10 +201,10 @@ html, body {height:100%;}
     border: 3px solid white;
 }
 #professores figure>p{
-    width: 79%;
+    width: 91%;
     position: absolute;
-    top: 86.5%;
-    left: 10.5%;
+    top: 85.5%;
+    left: 4.5%;
     padding: 10px 0;
     background-color: rgba(255,255,255,.8);
     color: black;
@@ -229,6 +236,67 @@ html, body {height:100%;}
         left: 30%;
         padding: 10px 0;
     }
+}
+#noticias .container-post img{
+    border: 2px solid white;
+}
+
+#noticias .container-post a:hover, #noticias .container-post a:focus{
+    color: white;
+}
+#noticias .container-post p{
+    padding-left: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#noticias .container-post .border-white-left{
+    border-left: 5px solid white;
+}
+#noticias .container-post .border-white-rigth{
+    border-right: 5px solid white;
+}
+#noticias .data-post{
+    padding-top: 100%;
+    border: none!important;
+}
+
+#noticias .data-post .dia-post{
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    color: #008241;
+    padding: 10px 12px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+#noticias .btn{
+    padding: 10px 100px;
+    color: #006633;
+}
+@media(max-width: 970px){
+    #container-post{
+        clear: both;
+    }
+    #noticias .data-post{
+        padding-top: 0;
+    }
+}
+#contato #mapa_contato{
+    width: 100%;
+    height: 250px;
+}
+#contato #form-contato .form-control{
+    border-radius: 0;
+    margin-bottom: 10px;
+    border-color: #006A35;
+    background-color: #F5F5F5;
+    min-width: 100%;
+}
+#contato #form-contato .btn{
+    border-radius: 0;
 }
 /*
     FOOTER
