@@ -9,14 +9,23 @@
 p{
     font-size: 16px!important;
 }
-html, body {height:100%;}
 #toTop{
     display: none!important;
 }
+html, body {height:100%;}
 /*
     CLASSES GLOBAIS
     @author Joab Torres Alencar
 */
+.bgParallax {
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .social-icon{
     display: block;
     width: 51px;
@@ -47,16 +56,7 @@ html, body {height:100%;}
 .text-ident{
     text-indent: 30px;
 }
-.bgParallax {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
-    position: relative;
-    min-height: 100%;
-    background-position: 50% 0;
-    background-repeat: repeat;
-    background-attachment: fixed;
-}
+
 .text-white{
     color: white;
 }
@@ -131,13 +131,15 @@ html, body {height:100%;}
     SECTION
     @author Joab Torres Alencar
 */
-#inicio{height: 80%;}
+#inicio{height: 70%;}
 #inicio-banner{
     background-image: url('../imagens/bg-inicio.jpg');
     color: white;
 }
-#inicio-banner img{
-    margin-top: 110px;
+#inicio-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #inicio-sections{
     padding-top: 30px;
@@ -183,14 +185,22 @@ html, body {height:100%;}
     background-color: #008241;
     color: white;
 }
-#professores figure figcaption{
+#professores figure{
+    position: relative;
+    display: inline-block;
     margin: 0;
     padding: 0;
+}
+#professores figure figcaption{
     position: absolute;
-    top: 2.5%;
-    left: 4.5%;
-    width: 91%;
+    top: 3%;
+    left: 0;
+    width: 100%;
     height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(255,255,255,.8);
     opacity: 0;
 }
